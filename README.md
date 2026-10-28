@@ -1,16 +1,18 @@
 # Nevuma Studio 3D | Links
 
-Página de links oficial da Nevuma Studio 3D, otimizada para celular e para a bio do TikTok.
+Página oficial de links da Nevuma Studio 3D, responsiva, sem dependências e pronta para usar na bio do TikTok.
 
-- **Site:** https://lucasalbertinazzi.github.io/Links---Nevuma-Studio-3D/
+- **Página pública:** https://lucasalbertinazzi.github.io/Links---Nevuma-Studio-3D/
 - **Shopee:** https://shopee.com.br/nevuma.studio3d
 - **WhatsApp:** https://wa.me/5514991296073
 
-## Publicação com GitHub Pages
+## Como ativar o GitHub Pages
 
-1. Abra **Settings > Pages** deste repositório.
-2. Em **Build and deployment > Source**, escolha **GitHub Actions**.
-3. Em **Actions**, acompanhe a execução do workflow `Deploy GitHub Pages`. Se necessário, clique em **Run workflow**.
-4. Após a publicação, abra o endereço do site acima.
+1. Abra **Settings → Pages**.
+2. Em **Build and deployment → Source**, escolha **Deploy from a branch**.
+3. Em **Branch**, selecione `main`; na pasta, selecione `/(root)`.
+4. Clique em **Save**.
 
-O arquivo `index.html` contém a página completa. Não é necessário instalar ferramentas ou contratar hospedagem para publicar pelo GitHub Pages.
+O GitHub Pages publicará o arquivo `index.html` da raiz. Não é necessário GitHub Actions, instalar ferramentas ou contratar hospedagem. Futuras alterações na branch `main` serão publicadas automaticamente.
+
+O endereço público deve ser verificado após o GitHub Pages confirmar a publicação.
